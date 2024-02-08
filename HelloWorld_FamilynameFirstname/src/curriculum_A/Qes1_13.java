@@ -102,9 +102,9 @@ public class Qes1_13 {
         
         
         // 【詳細】問９、8で使用した変数【年齢・身長・体重】の数値を和算で自己代入
-        age += age;  // 年齢は48歳になります
-        height += height;  // 身長は337.0cmになります
-        weight += weight;  // 体重は128.4kgになります
+        age += age;
+        height += height;
+        weight += weight;
         
         heightM = height / 100;
         bmi = weight / (heightM * heightM);
