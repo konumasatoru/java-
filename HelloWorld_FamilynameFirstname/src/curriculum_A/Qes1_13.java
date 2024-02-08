@@ -22,7 +22,7 @@ public class Qes1_13 {
         myFloat = 0.0f;
         myDouble = 0.0d;
         myChar = '\u0000';
-        myString = "";
+        myString = " ";
         myBoolean = false;
         
         // 【詳細】問３、初期化をしたそれぞれの変数に下記の値を代入
@@ -37,7 +37,7 @@ public class Qes1_13 {
         myBoolean = true;
         
         // 【詳細】問４、演算を行う
-        int sum_of_numbers = myByte + myShort + myInt + (int)myLong;
+        long sum_of_numbers = (long) (myByte + myShort + myInt + myLong + myFloat + myDouble);
         long product_of_integers = myByte * myShort * myInt * myLong;
         double division = myDouble / 100;
         int subtraction = myByte - myShort;
@@ -81,7 +81,7 @@ public class Qes1_13 {
         System.out.println("BMIは" + formattedBMI + "です");
         
         
-     // 【詳細】問８、新しい情報でローカル変数に再代入
+        // 【詳細】問８、新しい情報でローカル変数に再代入
         name = "鈴木一郎";
         age = 24;
         height = 168.5;
@@ -120,10 +120,14 @@ public class Qes1_13 {
         System.out.println("BMIは" + formattedBMI + "です");
         
         // 【詳細】問１０、8で使用した年齢が25歳以上ならtrueが出力
+        name = "鈴木一郎";
+        age = 24;
         System.out.println(age >= 25);
         
         
         // 【詳細】問１１、整数と浮動小数点数を文字列に変換し、連結して出力
+        height = 168.5;
+        weight = 64.2;
         String result = String.valueOf(age) + String.valueOf(height) + String.valueOf(weight);
         System.out.println(result);
         
