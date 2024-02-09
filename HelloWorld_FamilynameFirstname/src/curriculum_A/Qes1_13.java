@@ -22,7 +22,7 @@ public class Qes1_13 {
         myFloat = 0.0f;
         myDouble = 0.0d;
         myChar = '\u0000';
-        myString = " ";
+        myString = null;
         myBoolean = false;
         
         // 【詳細】問３、初期化をしたそれぞれの変数に下記の値を代入
