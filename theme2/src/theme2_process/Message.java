@@ -10,7 +10,11 @@ public class Message {
     }
 
     public void printMessage() {
-        System.out.println(this.message);
+    	if (this.message != null) {
+            System.out.println(this.message);
+        } else {
+            System.out.println("nullです。");
+        }
     }
 
     public static void printCurrentDateTime() {
