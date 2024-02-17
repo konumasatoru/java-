@@ -23,3 +23,4 @@ public class Message {
         System.out.println("今の現在日時は" + now.format(formatter) + "です");
     }
 }
+
