@@ -1,4 +1,4 @@
-package question_1_32;
+package question_1_33;
 
 class Person{
 	public static int count = 0;
@@ -32,5 +32,14 @@ class Person{
 	public static void printCount(){
 	    System.out.println("合計" + Person.count + "人です");
 	}
-
+	
+	public void buy(Car car) {
+		car.setOwner(this.fullName());
+		System.out.println(car.getOwner() + "が購入しました");
+	}
+	
+	public void buy(Bicycle bicycle) {
+		bicycle.setOwner(this.fullName());
+		System.out.println(bicycle.getOwner() + "が購入しました");
+	}
 }
