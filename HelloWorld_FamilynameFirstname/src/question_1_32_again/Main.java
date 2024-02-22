@@ -1,4 +1,4 @@
-package question_1_32;
+package question_1_32_again;
 
 class Main{
 	public static void main(String[] args){
